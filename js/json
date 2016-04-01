@@ -1,0 +1,20 @@
+[
+  {
+    "name":"JRIDI Hamza",
+    "shortname":"JRIDI Hamza",
+    "competences":{"LANGAGES ET NORMES" : "HTML5 / CSS3, JavaScript"},
+    "bio":"Ingénieur Informatique de l'Ecole Natonale d'Electronique et de Télécommuncation de Sfax"
+  },
+  {
+    "name":"MEFTEH Amen",
+    "shortname":"MEFTEH Amen",
+    "competences":{"LANGAGES ET NORMES" : "HTML5 / CSS3, JavaScript"},
+    "bio":"Ingénieur"
+  },
+  {
+    "name":"Aouadi Yassin",
+    "shortname":"Aouadi Yassin",
+    "competences":{"LANGAGES ET NORMES" : "HTML5 / CSS3, JavaScript"},
+    "bio":"Ingénieur"
+  }
+]

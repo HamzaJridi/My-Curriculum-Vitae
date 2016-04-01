@@ -1,0 +1,20 @@
+[
+  {
+    "name":"JRIDI Hamza",
+    "shortname":"Barot_Bellingham",
+    "competences":{"LANGAGES ET NORMES" : "HTML5 / CSS3, JavaScript"},
+    "bio":"Ingénieur Informatique"
+  },
+  {
+    "name":"AOUADI assin",
+    "shortname":"Jonathan_Ferrar",
+    "competences":{"LANGAGES ET NORMES" : "HTML5 / CSS3, JavaScript"},
+    "bio":"Ingénieur Informatique"
+  },
+  {
+    "name":"MSILINI Nihel",
+    "shortname":"Hillary_Goldwynn",
+    "competences":{"LANGAGES ET NORMES" : "HTML5 / CSS3, JavaScript"},
+    "bio":"Ingénieur Informatique"
+  }
+]
