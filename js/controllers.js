@@ -1,6 +1,7 @@
-var myCV = angular.module('myCV', []);
-
-myCV.controller('headCtrl', function headCrtl ($scope) {
+// créer le module "myCV"
+var myCV = angular.module('myCV', ['ngRoute']);
+//créer le controleur et injecter le service $scope et les données
+myCV.controller('headCtrl', function($scope) {
     $scope.data =
     {
         "adresse" : "La Soukra, Ariana Tunisie",
