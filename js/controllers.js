@@ -1,9 +1,14 @@
-var myApp = angular.module('myApp', []);
+var myCV = angular.module('myCV', []);
 
-myApp.controller('MyController', ['$scope', '$http', function($scope, $http) {
-  $http.get('js/data.json').success(function(data) {
-    $scope.artists = data;
-    $scope.artistOrder = 'name';
-  });
-}]);
+myCV.controller('headCtrl', function headCrtl ($scope) {
+    $scope.data =
+    {
+        "adresse" : "La Soukra, Ariana Tunisie",
+        "e-mail" : "hamzaJridi.h@gmail.com",
+        "tel" : "(+216) 22 428 402",
+        "linkedIN" : "https://tn.linkedin.com/in/jridihamza",
+        "Expérience professionnelle":[
 
+        ] ,
+    }
+});

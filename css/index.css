@@ -1,0 +1,64 @@
+h1 {
+    /*background-color: snow;*/
+    min-height: 100%;
+    height: auto;
+}
+
+body  {
+    font-family: Arial;
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+#nom {
+    text-align: center;
+    font-size: 200%;
+
+
+}
+
+#info {
+    text-align: center;
+    font-size: 250%;
+    margin-right: 2em;
+}
+#poste {
+    text-align: center;
+    font-size: 200%;
+}
+
+#imgcv {
+    -webkit-border-radius: 80em;
+    -moz-border-radius: 80em;
+    border-radius: 80em;
+    margin: 1em 0 0 10em ;
+    width: 12em;
+    height: 9em;
+}
+span {
+    color: #245580;
+}
+header {
+    margin: 0 1em 0 1em;
+}
+hr {
+    height: 2em;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+    margin: 2em 7em 0 7em;
+}
+.body {
+    margin: 5em;
+}
+.comp{
+    -webkit-border-radius: 80em;
+    -moz-border-radius:80em;
+    border-radius: 80em;
+    width: 25em;
+    height: 18em;
+    opacity: 0.9;
+}
+.comp:hover {
+    opacity: 0.5;
+}
