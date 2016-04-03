@@ -9,7 +9,7 @@ body  {
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    overflow: hidden;
+    overflow: scroll;
 }
 #nom {
     text-align: center;
@@ -20,8 +20,8 @@ body  {
 
 #info {
     text-align: center;
-    font-size: 250%;
-    margin-right: 2em;
+    font-size: 200%;
+    /*margin-right: 2em;*/
 }
 #poste {
     text-align: center;
@@ -32,7 +32,7 @@ body  {
     -webkit-border-radius: 80em;
     -moz-border-radius: 80em;
     border-radius: 80em;
-    margin: 1em 0 0 10em ;
+    margin: 1em 0 0 5em ;
     width: 12em;
     height: 9em;
 }
@@ -40,7 +40,7 @@ span {
     color: #245580;
 }
 header {
-    margin: 0 1em 0 1em;
+    /*margin: 0 1em 0 1em;*/
 }
 hr {
     height: 2em;
@@ -49,7 +49,7 @@ hr {
     margin: 2em 7em 0 7em;
 }
 .body {
-    margin: 5em;
+    /*margin: 5em;*/
 }
 .comp{
     -webkit-border-radius: 80em;
@@ -61,4 +61,46 @@ hr {
 }
 .comp:hover {
     opacity: 0.5;
+}
+
+.hd .navbar .navbar-default{
+    color: #1b6d85;
+}
+
+.details {
+    font-size: 1.1em;
+    line-height: 160%;
+    background: #EEE8D5;
+    color: #0F4150;
+    width: 90%;
+    max-width: 40em;
+    margin: 0 auto;
+    margin-top: 2em;
+    margin-bottom: 30px;
+    padding: 20px 30px;
+    border-radius: 10px;
+    z-index: 20;
+}
+.details h2{
+    font-size: 1.8em;
+    margin-bottom: 1em;
+    color: #d9534f;
+}
+
+.icons {
+    max-height: 5em;
+    max-width: 5em;
+
+}
+.icon {
+    margin-left: 7em;
+
+}
+.jumbotron {
+    width: auto;
+    height: inherit;
+}
+
+.resume {
+    margin: 2em 5em;
 }

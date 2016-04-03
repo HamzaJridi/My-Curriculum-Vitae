@@ -14,35 +14,31 @@
 
     <link rel="stylesheet" href="css/index.css"/>
     <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
     <script src="js/controllers.js"></script>
     <script src="js/animation.js"></script>
 </head>
 
 
-<body>
-    <!--header-->
-    <header class="row" ng-controller = "headCtrl">
-        <img id="imgcv" src="img/hamza.png" alt="hamza" class="img-responsive col-lg-3 col-md-3 col-sm-3 col-xs-3"/>
+<body ng-controller = "headCtrl">
+<header class="hd">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Curriculium Vitae</a>
+            </div>
 
-        <div class="row col-lg-5 col-md-5 col-sm-5 col-xs-5">
-            <h1 id="nom"> JRIDI Hamza</h1>
-            <h1 id="poste">Ingénieur Informatique</h1>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#competences"><i class="fa fa-shield"></i> Education</a></li>
+                <li><a href="#projects"><i class="fa fa-comment"></i> Projects</a></li>
+                <li><a href="#skills"><i class="fa fa-comment"></i> Skills</a></li>
+            </ul>
         </div>
-        <!--Informations-->
-        <div class="col-lg-4 col-md-4 col-sm-3 col-xs-4" id="info">
-            <h4><span>adresse : </span>{{data.adresse}}</h4>
-            <h4><span>E-mail : </span>{{data["e-mail"]}}</h4>
-            <h4><span>Tel : </span>{{data.tel}}</h4>
-            <h4><span>Linked-In : </span><a href="https://tn.linkedin.com/in/jridihamza">JRIDI Hamza </a></h4>
-        </div>
-    </header>
-    <hr/>
-    <div class="row body">
-        <img src="img/competence.jpg" alt="" class="img-responsive col-lg-4 col-md-4 col-sm-4 col-xs-4 comp"/>
-        <div ng-view></div>
+    </nav>
+</header>
 
-    </div>
-    </div>
 
+    <div ng-view></div>
 </body>
 </html>
