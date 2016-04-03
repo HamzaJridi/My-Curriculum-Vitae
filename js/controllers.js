@@ -36,11 +36,18 @@ myCV.controller('headCtrl', function ($scope) {
 });
 
 myCV.controller('comptCtrl', function($scope) {
-    $scope.compt =
+    $scope.compt =[
     {
         "date" : "Septembre 2015 - Présent",
         "role" : "Membre dans le cadre collaboratif « Teampany »",
         "tache" : "Développement des plateformes Web ",
         "tech" : "HTML5, CSS3, JavaScript, jQuery, Node.js, Socket.io, Redis, HandsOnTable"
+    },
+    {
+        "date" : "Février – Juin 2015",
+        "role" : "Projet de Fin d’Etude au sein de la société « Edidtion Kitabi »",
+        "tache" : "Développement d’applications mobiles pour enfants",
+        "tech" : "HTML5, CSS3, JS, jQuery, IDE, Bootstrap, PhoneGap et jQueryUI"
     }
+    ]
 });

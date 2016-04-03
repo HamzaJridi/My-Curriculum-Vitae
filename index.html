@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="myCV">
+<html lang="fr" ng-app="myCV">
 <head>
     <meta charset="UTF-8">
     <title>Curriculum Vitae</title>
@@ -16,12 +16,11 @@
     <script src="lib/angular/angular.min.js"></script>
     <script src="lib/angular/angular-route.min.js"></script>
     <script src="js/controllers.js"></script>
-    <script src="js/animation.js"></script>
 </head>
 
 
-<body ng-controller = "headCtrl">
-<header class="hd">
+<body ng-controller = "headCtrl" class="view">
+<header class="view">
     <nav class="navbar navbar-inverse">
         <div class="container">
             <div class="navbar-header">
@@ -29,16 +28,16 @@
             </div>
 
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#competences"><i class="fa fa-shield"></i> Education</a></li>
-                <li><a href="#projects"><i class="fa fa-comment"></i> Projects</a></li>
-                <li><a href="#skills"><i class="fa fa-comment"></i> Skills</a></li>
+                <li><a href="#"><i class="fa fa-home"></i>Accueil</a></li>
+                <li><a href="#competences"><i class="fa fa-shield"></i> Expérience Professionnelles</a></li>
+                <li><a href="#projects"><i class="fa fa-comment"></i> Formation</a></li>
+                <li><a href="#skills"><i class="fa fa-comment"></i> Compétences</a></li>
             </ul>
         </div>
     </nav>
 </header>
 
 
-    <div ng-view></div>
+    <div ng-view class="view"></div>
 </body>
 </html>

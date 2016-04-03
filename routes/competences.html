@@ -1,10 +1,18 @@
-<section class="details">
-    <div>
-        <h2>{{compt.date}}</h2>
-        <h3>{{compt.role}}</h3>
-        <ul>
-            <li><h4><span style="color: tomato">Tâches : </span>{{compt.tache}}</h4></li>
-            <li><h4><span style="color: tomato">Technologies : </span>{{compt.tech}}</h4></li>
-        </ul>
-    </div>
-</section>
+<div class="row">
+    <section class="details">
+        <div>
+            <h3>{{compt[0].date}}</h3>
+            <h2>{{compt[0].role}}</h2>
+            <a href="#"><button type="button" class="btn btn-info" style="float: inherit">Details</button></a>
+        </div>
+    </section>
+
+    <section class="details">
+        <div>
+            <h3>{{compt[1].date}}</h3>
+            <h2>{{compt[1].role}}</h2>
+            <a href="#"><button type="button" class="btn btn-info" style="float: inherit">Details</button></a>
+        </div>
+    </section>
+
+</div>
