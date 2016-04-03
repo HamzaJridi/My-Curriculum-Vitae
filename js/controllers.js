@@ -35,7 +35,7 @@ myCV.controller('headCtrl', function ($scope) {
         "e-mail" : "hamzaJridi.h@gmail.com",
         "tel" : "(+216) 22 428 402",
         "linkedIN" : "https://tn.linkedin.com/in/jridihamza",
-        "resume": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt  culpa qui officia deserunt mollit anim  est laborum."
+        "resume": "JRID hamza, c'est mon nom, mon ambition dans la vie c'est de devenir un ingénieur avec un grand i. Rendre fière mes parents était ma principale motivation. C'est eux qui m'ont toujours poussé à avancer et m'ont toujours encouragé à faire des études en Informatique et je peux affirmé aujourd'hui que je suis fier d'avoir fait ce choix. Certes, je n'ai pas encore goûté à la joie de pratiquer enfin ce que j'ai appris théoriquement durant toutes ces années d'études, mais je suis plein de motivation et d'énergie qui ne demande juste qu'à être exprimée..."
     }
 });
 
