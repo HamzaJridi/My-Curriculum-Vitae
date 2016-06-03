@@ -1,0 +1,92 @@
+{
+  "home": {
+    "adresse": "Soukrah, Ariana Tunisia",
+    "e-mail": "hamzaJridi.h@gmail.com",
+    "tel": "(+216) 22 428 402",
+    "linkedIN": "https://tn.linkedin.com/in/jridihamza",
+    "resume": "Hamza Jridi is my name, my ambition in life is to become an Engineer with a big E. Make my parents proud of me was always my main motivation. It is them who had always pushed me forward and encouraged me to pursue my studies in computer sciences, and I can confirm today that I am proud to have made this choice. Certainly, I have not yet tasted the joy of practicing what I have learned during all these years of study, but I am full of motivation and energy that just wait to be expressed."
+  },
+  "experiences": [
+    {
+      "date": "Septembre - Février 2016",
+      "role": "Membre dans le cadre collaboratif « Teampany »",
+      "tache": "Développement des plateformes Web ",
+      "tech": "HTML5, CSS3, JavaScript, jQuery, Node.js, Socket.io, Redis, HandsOnTable",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt culpa qui officia deserunt mollit anim est laborum."
+    },
+    {
+      "date": "Février – Juin 2015",
+      "role": "Projet de Fin d’Etude au sein de la société « Edidtion Kitabi »",
+      "tache": "Développement d’applications mobiles pour enfants",
+      "tech": "HTML5, CSS3, JS, jQuery, IDE, Bootstrap, PhoneGap et jQueryUI",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt culpa qui officia deserunt mollit anim est laborum."
+    }
+  ],
+  "formation": [
+    {
+      "date": "2012 - 2015",
+      "ecole": "Ecole Nationale d’Electronique et de Télécommunication de Sfax (ENET’com)",
+      "diplome": "Diplôme National d’Ingénieur en Informatique"
+    },
+    {
+      "date": "2008 - 2011",
+      "ecole": "Institut préparatoire aux études d’ingénieurs de Nabeul (IPEIN)."
+    },
+    {
+      "date": "2008 ",
+      "ecole": "Obtention du Baccalauréat section Sciences Techniques, Mention Bien."
+    }
+  ],
+  "skills": [
+    {
+      "Langage de programation": [
+        "C, C embarqué",
+        "C++",
+        "Java",
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "jQuery",
+        "AJAX",
+        "JSON",
+        "PHP5",
+        "Node.js",
+        "Socket.io",
+        "Redis"
+      ]
+    },
+    {
+      "Systèmes embarqués": [
+        "Cartes FPGA (VHDL)",
+        "Microcontrôleurs",
+        "Cartes DSP (TMS320C64x)"
+      ]
+    },
+    {
+      "Framework": [
+        "PhoneGap-Cordova",
+        "Bootstrap"
+      ]
+    },
+    {
+      "Langage de modélisation": [
+        "UML"
+      ]
+    },
+    {
+      "Connaissances": [
+        "Culture et création d’entreprise",
+        "Gestion des projets",
+        "droit de l’homme"
+      ]
+    },
+    {
+      "Langues": [
+        "Arabe (Maternelle)",
+        "Français (Niveau B2)",
+        "Anglais (Niveau B2)",
+        "Italien (Niveau A1)"
+      ]
+    }
+  ]
+}

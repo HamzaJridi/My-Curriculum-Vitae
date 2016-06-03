@@ -1,41 +1,3 @@
-// créer le module "myCV"
-var myCV = angular.module('myCV', ['ngRoute']);
-
-//configurer les routes
-myCV.config(function($routeProvider) {
-    $routeProvider
-
-        // route pour l'acceuil
-        .when('/', {
-            templateUrl : 'routes/home.html',
-            controller  : 'headCtrl'
-        })
-
-        // route pour listExp.html
-        .when('/experiences', {
-            templateUrl : 'routes/listExp.html',
-            controller  : 'comptCtrl'
-        })
-        .when('/experiences/:itemId', {
-            templateUrl : 'routes/detailExp.html',
-            controller  : 'comptCtrl'
-        })
-
-        .when('/formation', {
-            templateUrl : 'routes/formation.html',
-            controller  : 'formCtrl'
-        })
-
-        .when('/skills', {
-            templateUrl : 'routes/skills.html',
-            controller  : 'skillCtrl'
-        })
-
-        .otherwise({
-            redirectTo:'/'
-        });
-});
-
 //Configuration des controleurs
 
 //créer le controleur de la page d'accueil
@@ -46,7 +8,7 @@ myCV.controller('headCtrl', function ($scope) {
         "e-mail" : "hamzaJridi.h@gmail.com",
         "tel" : "(+216) 22 428 402",
         "linkedIN" : "https://tn.linkedin.com/in/jridihamza",
-        "resume": "JRID hamza, c'est mon nom, mon ambition dans la vie c'est de devenir un ingénieur avec un grand i. Rendre fière mes parents était ma principale motivation. C'est eux qui m'ont toujours poussé à avancer et m'ont toujours encouragé à faire des études en Informatique et je peux affirmé aujourd'hui que je suis fier d'avoir fait ce choix. Certes, je n'ai pas encore goûté à la joie de pratiquer enfin ce que j'ai appris théoriquement durant toutes ces années d'études, mais je suis plein de motivation et d'énergie qui ne demande juste qu'à être exprimée..."
+        "resume": "Hamza Jridi is my name, my ambition in life is to become an Engineer with a big E. Make my parents proud of me was always my main motivation. It is them who had always pushed me forward and ancouraged me to pursue my studies in computer sciences, and I can confirm today that I am proud to have made this choice. Certainly, I have not yet tasted the joy of practicing what I have learned during all these years of study, but I am full of motivation and energy that just wait tp be expressed."
     }
 });
 
@@ -54,7 +16,7 @@ myCV.controller('headCtrl', function ($scope) {
 myCV.controller('comptCtrl', function($scope, $routeParams) {
     $scope.compt =[
     {
-        "date" : "Septembre - Février 2016",
+        "date" : "September - February 2016",
         "role" : "Membre dans le cadre collaboratif « Teampany »",
         "tache" : "Développement des plateformes Web ",
         "tech" : "HTML5, CSS3, JavaScript, jQuery, Node.js, Socket.io, Redis, HandsOnTable",
@@ -117,7 +79,5 @@ myCV.controller('skillCtrl', function($scope) {
         {
         "Langues" : ["Arabe (Maternelle)", "Français (Niveau B2)", "Anglais (Niveau B2)", "Italien (Niveau A1)"]
         }
-
-
     ];
 });

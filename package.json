@@ -1,0 +1,25 @@
+{
+  "name": "curriculumvitae",
+  "version": "1.0.0",
+  "description": "My Curriculum Vitae",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HamzaJridi/My-Curriculum-Vitae.git"
+  },
+  "author": "Hamza Jridi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HamzaJridi/My-Curriculum-Vitae/issues"
+  },
+  "homepage": "https://github.com/HamzaJridi/My-Curriculum-Vitae#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-nodemon": "^2.0.7"
+  }
+}
