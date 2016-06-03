@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Curriculum Vitae</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+<<<<<<< HEAD
     <!-- Bootstrap -->
     <script src="public/lib/jquery-1.12.3.min.js"></script>
     <link rel="stylesheet" href="public/lib/bootstrap/css/bootstrap.min.css">
@@ -57,5 +58,42 @@
     <!--</nav>-->
 </header>
 <div ng-view class="view"></div>
+=======
+
+    <!-- jQuery library -->
+    <script src="lib/jquery-2.2.2.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" href="css/index.css"/>
+    <script src="lib/angular/angular.min.js"></script>
+    <script src="lib/angular/angular-route.min.js"></script>
+    <script src="js/controllers.js"></script>
+</head>
+
+
+<body ng-controller = "headCtrl" class="view">
+<header class="view">
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">Curriculium Vitae</a>
+            </div>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#"><i class="fa fa-home"></i>Accueil</a></li>
+                <li><a href="#experiences"><i class="fa fa-shield"></i> Expérience Professionnelles</a></li>
+                <li><a href="#projects"><i class="fa fa-comment"></i> Formation</a></li>
+                <li><a href="#skills"><i class="fa fa-comment"></i> Compétences</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+    <div ng-view class="view"></div>
+>>>>>>> 6c1136b84818b05b017153a81d7b3fa754bec423
 </body>
 </html>
