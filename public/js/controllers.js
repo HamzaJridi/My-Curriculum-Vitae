@@ -8,7 +8,7 @@ myCV.controller('headCtrl', function ($scope) {
         "e-mail" : "hamzaJridi.h@gmail.com",
         "tel" : "(+216) 22 428 402",
         "linkedIN" : "https://tn.linkedin.com/in/jridihamza",
-        "resume": "Hamza Jridi is my name, my ambition in life is to become an Engineer with a big E. Make my parents proud of me was always my main motivation. It is them who had always pushed me forward and ancouraged me to pursue my studies in computer sciences, and I can confirm today that I am proud to have made this choice. Certainly, I have not yet tasted the joy of practicing what I have learned during all these years of study, but I am full of motivation and energy that just wait tp be expressed."
+        "resume": "Hamza Jridi is my name, my ambition in life is to become an Engineer with a big E. Make my parents proud of me was always my main motivation. It is them who had always pushed me forward and encouraged me to pursue my studies in computer sciences, and I can confirm today that I am proud to have made this choice. Certainly, I have not yet tasted the joy of practicing what I have learned during all these years of study, but I am full of motivation and energy that just wait to be expressed."
     }
 });
 
