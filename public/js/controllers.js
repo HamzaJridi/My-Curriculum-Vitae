@@ -4,7 +4,7 @@
 myCV.controller('headCtrl', function ($scope) {
     $scope.data =
     {
-        "adresse" : "La Soukra, Ariana Tunisie",
+        "adresse" : "Soukrah, Ariana Tunisia",
         "e-mail" : "hamzaJridi.h@gmail.com",
         "tel" : "(+216) 22 428 402",
         "linkedIN" : "https://tn.linkedin.com/in/jridihamza",
