@@ -15,20 +15,43 @@ myCV.controller('headCtrl', function ($scope) {
 //créer le controleur de la page d'expériences
 myCV.controller('comptCtrl', function($scope, $routeParams) {
     $scope.compt =[
-    {
+        {
+            "date" : "Mars - May 2016",
+            "role" : "Craft Academy Training",
+            "tache" : "Javascript FullStack Developer Training",
+            "tech" : "HTML5, CSS3, JavaScript, jQuery, Node.js, Socket.io, AngularJS, MongoDB, Emebr.js, Backbone",
+            "description" : "The Craft Academy is a project in collaboration between Poulina Group Holding and Human Craft for teaching a group of computer engineers some of the newest Web technologies and make them able to develop a whole web project from its first step until deploying it to production."
+        }, {
         "date" : "September - February 2016",
-        "role" : "Membre dans le cadre collaboratif « Teampany »",
-        "tache" : "Développement des plateformes Web ",
+        "role" : "Member of the Teampany collaborative framework as a Freelancer",
+        "tache" : "Development of Web Platforms ",
         "tech" : "HTML5, CSS3, JavaScript, jQuery, Node.js, Socket.io, Redis, HandsOnTable",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt culpa qui officia deserunt mollit anim est laborum."
-    },
-    {
-        "date" : "Février – Juin 2015",
-        "role" : "Projet de Fin d’Etude au sein de la société « Edidtion Kitabi »",
-        "tache" : "Développement d’applications mobiles pour enfants",
-        "tech" : "HTML5, CSS3, JS, jQuery, IDE, Bootstrap, PhoneGap et jQueryUI",
-        "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt culpa qui officia deserunt mollit anim est laborum."
-    }
+        "description" : "The platform consists in generating forms, small applications, or modules that can be added to websites."
+        }, {
+        "date" : "February – June 2015",
+        "role" : "Graduation Project within the company \"Edition Kitabi\"",
+        "tache" : "Development of mobile applications for kids",
+        "tech" : "HTML5, CSS3, JavaScript, jQuery, jQueryUI, Phonegap, Android SDK",
+        "description" : "The graduation project was a part of a bigger project within the Kitabi Publishing house that consists in converting the company's products from a simple book to a mobile app. During this project, I developed two mobile applications, one as a native android app and the other as a hybrid app using Phonegap"
+        }, {
+        "date" : "July 2014",
+        "role" : "Internship at STEPEAV",
+        "tache" : "Development of a power management and people counting Application",
+        "tech" : "CCS C IDE, Proteus, Embedded C for PICs",
+        "description" : "Development of a power management and people counting Application"
+      }, {
+        "date" : "June 2014",
+        "role" : "End of year project within the school ENET’com",
+        "tache" : "Development Temperature Acquisition by RS-232 Application",
+        "tech" : "mikroC IDE, Proteus, Embedded C for PICs",
+        "description" : "Development Temperature Acquisition by RS-232 Application"
+      }, {
+        "date" : "July 2013",
+        "role" : "Internship at CIPI ACTIA",
+        "tache" : "Development of an application for workshop tools management",
+        "tech" : "Visual Studio 2010 IDE, Visual Basic 6",
+        "description" : "Development of an application for workshop tools management"
+      }
     ];
     $scope.whichItem = $routeParams.itemId;
 });
@@ -37,47 +60,39 @@ myCV.controller('comptCtrl', function($scope, $routeParams) {
 //créer le controleur de la page de formation
 myCV.controller('formCtrl', function($scope) {
     $scope.form =[
-        {
-            "date" : "2012 - 2015",
-            "Ecole" : "Ecole Nationale d’Electronique et de Télécommunication de Sfax (ENET’com)",
-            "Diplome": "Diplôme National d’Ingénieur en Informatique",
-
-        },
-        {
-            "date" : "2008 - 2011",
-            "Ecole" : "Institut préparatoire aux études d’ingénieurs de Nabeul (IPEIN).",
-        },
-        {
-            "date" : "2008 ",
-            "Ecole" : "Obtention du Baccalauréat section Sciences Techniques, Mention Bien.",
-        }
-
-
+      {
+        "date" : "2012 - 2015",
+        "Ecole" : "National School of Electronics and Telecommunication of Sfax (ENET’com)",
+        "Diplome": "Computer Engineer Diploma"
+      }, {
+        "date" : "2008 - 2011",
+        "Ecole" : "Preparatory Institute for Engineering Studies of Nabeul (IPEIN).",
+        "Diplome": ""
+      }, {
+        "date" : "2008 ",
+        "Ecole" : "Technical sciences baccalaureate degree",
+        "Diplome": ""
+      }
     ];
 });
 
 //créer le controleur de la page de compétences
 myCV.controller('skillCtrl', function($scope) {
     $scope.skill =[
-        {
-            "Langage de programation" : ["C, C embarqué", "C++", "Java","HTML5","CSS3", "JavaScript", "jQuery", "AJAX", "JSON", "PHP5", "Node.js", "Socket.io", "Redis"],
-
-        },
-        {
-            "Systèmes embarqués": ["Cartes FPGA (VHDL)", "Microcontrôleurs", "Cartes DSP (TMS320C64x)"]
-        },
-        {
-            "Framework" : ["PhoneGap-Cordova", "Bootstrap"]
-        },
-        {
-            "Langage de modélisation" : ["UML"]
-        },
-        {
-            "Connaissances" : ["Culture et création d’entreprise", "Gestion des projets", "droit de l’homme"]
-        },
-
-        {
-        "Langues" : ["Arabe (Maternelle)", "Français (Niveau B2)", "Anglais (Niveau B2)", "Italien (Niveau A1)"]
-        }
+      {
+        "Langage de programation" : ["C, Embedded C", "C++", "Java","HTML5","CSS3", "JavaScript", "jQuery", "AJAX", "JSON", "PHP5", "Node.js", "UML"]
+      }, {
+        "webTechs" : ["HTML5", "CSS3", "Bootstrap", "Sass", "JavaScript", "jQuery", "AngularJS", "NodeJS", "Express", "Socket.io", "MongoDB"]
+      },{
+        "Systèmes embarqués": ["FPGA cards (VHDL)", "Microcontrollers", "DSP cards (TMS320C64x)"]
+      }, {
+        "Framework" : ["PhoneGap-Cordova", "Bootstrap", "Express"]
+      }, {
+        "Connaissances" : ["Entrepreneurship", "Project Management", "Human Rights", "Personal Skills development"]
+      }, {
+        "database" : ["MySql", "Redis", "MongoDB"]
+      }, {
+        "Langues" : ["Arabic (Native)", "French (B2)", "English (B2)", "Italian (A1)"]
+      }
     ];
 });

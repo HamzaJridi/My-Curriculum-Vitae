@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>Curriculum Vitae</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-<<<<<<< HEAD
     <!-- Bootstrap -->
     <script src="public/lib/jquery-1.12.3.min.js"></script>
     <link rel="stylesheet" href="public/lib/bootstrap/css/bootstrap.min.css">
@@ -18,82 +17,32 @@
 </head>
 
 <body ng-controller = "headCtrl" class="view">
-<header class="view">
-    <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#home">Curriculium Vitae</a>
-            </div>
+    <header class="view">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#home">Curriculium Vitae</a>
+                </div>
 
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="#resume">Resume</a></li>
-                    <li><a href="#experiences"><i class="fa fa-shield"></i>Professional Experiences</a></li>
-                    <li><a href="#formation"><i class="fa fa-comment"></i>Education</a></li>
-                    <li><a href="#skills"><i class="fa fa-comment"></i>Technical Skills</a></li>
-                </ul>
-            </div><!-- /.navbar-collapse -->
-        </div><!-- /.container-fluid -->
-    </nav>
-    <!--<nav class="navbar navbar-inverse">-->
-        <!--<div class="container">-->
-            <!--&lt;!&ndash;<div class="navbar-header">&ndash;&gt;-->
-                <!--&lt;!&ndash;<a class="navbar-brand" href="#">Curriculium Vitae</a>&ndash;&gt;-->
-            <!--&lt;!&ndash;</div>&ndash;&gt;-->
-            <!--<ul class="nav navbar-nav navbar-right">-->
-                <!--<li><a href="#resume"><i></i>Resume</a></li>-->
-                <!--<li><a href="#experiences"><i class="fa fa-shield"></i>Professional Experiences</a></li>-->
-                <!--<li><a href="#formation"><i class="fa fa-comment"></i>Education</a></li>-->
-                <!--<li><a href="#skills"><i class="fa fa-comment"></i>Technical Skills</a></li>-->
-            <!--</ul>-->
-        <!--</div>-->
-    <!--</nav>-->
-</header>
-<div ng-view class="view"></div>
-=======
-
-    <!-- jQuery library -->
-    <script src="lib/jquery-2.2.2.min.js"></script>
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-
-    <link rel="stylesheet" href="css/index.css"/>
-    <script src="lib/angular/angular.min.js"></script>
-    <script src="lib/angular/angular-route.min.js"></script>
-    <script src="js/controllers.js"></script>
-</head>
-
-
-<body ng-controller = "headCtrl" class="view">
-<header class="view">
-    <nav class="navbar navbar-inverse">
-        <div class="container">
-            <div class="navbar-header">
-                <a class="navbar-brand" href="#">Curriculium Vitae</a>
-            </div>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="#"><i class="fa fa-home"></i>Accueil</a></li>
-                <li><a href="#experiences"><i class="fa fa-shield"></i> Expérience Professionnelles</a></li>
-                <li><a href="#projects"><i class="fa fa-comment"></i> Formation</a></li>
-                <li><a href="#skills"><i class="fa fa-comment"></i> Compétences</a></li>
-            </ul>
-        </div>
-    </nav>
-</header>
-
-
-    <div ng-view class="view"></div>
->>>>>>> 6c1136b84818b05b017153a81d7b3fa754bec423
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#experiences"><i class="fa fa-shield"></i>Professional Experiences</a></li>
+                        <li><a href="#formation"><i class="fa fa-comment"></i>Education</a></li>
+                        <li><a href="#skills"><i class="fa fa-comment"></i>Technical Skills</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div ng-view class="view"></div>
+    </header>
 </body>
 </html>

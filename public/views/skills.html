@@ -1,47 +1,50 @@
 <div class="row">
-    <section class="skills col-lg-4 col-md-4 col-sm-4">
-        <h3>*Langages de programation</h3>
-        <ul class="compt">
-            <li ng-repeat="i in skill[0]['Langage de programation']">{{i}}</li>
-        </ul>
+  <div class="col-xs-4">
+    <section class="skills col-xs-12">
+      <h3 style="color: #6e2890">*Programming Languages</h3>
+      <ul class="compt">
+        <li ng-repeat="i in skill[0]['Langage de programation']">{{i}}</li>
+      </ul>
     </section>
-
-    <div class="col-lg-4 col-md-4 col-sm-4">
-        <section class="skills">
-            <h3>*Systèmes embarqués</h3>
-            <ul class="compt">
-                <li ng-repeat="i in skill[1]['Systèmes embarqués']">{{i}}</li>
-            </ul>
-        </section>
-
-        <section class="skills">
-            <h3>*Framework</h3>
-            <ul class="compt">
-                <li ng-repeat="i in skill[2]['Framework']">{{i}}</li>
-            </ul>
-        </section>
-
-        <section class="skills">
-            <h3>*Langage de modélisation</h3>
-            <ul class="compt">
-                <li ng-repeat="i in skill[3]['Langage de modélisation']">{{i}}</li>
-            </ul>
-        </section>
-    </div>
-
-    <div class="col-lg-4 col-md-4 col-sm-4">
-        <section class="skills">
-            <h3>*Connaissances</h3>
-            <ul class="compt">
-                <li ng-repeat="i in skill[4]['Connaissances']">{{i}}</li>
-            </ul>
-        </section>
-
-        <section class="skills">
-            <h3>*Langues</h3>
-            <ul class="compt">
-                <li ng-repeat="i in skill[5]['Langues']">{{i}}</li>
-            </ul>
-        </section>
-    </div>
+    <section class="skills col-xs-12">
+      <h3 style="color: #6e2890">*DataBasesMS</h3>
+      <ul class="compt">
+        <li ng-repeat="i in skill[5]['database']">{{i}}</li>
+      </ul>
+    </section>
+  </div>
+  <div class="col-xs-4">
+    <section class="skills col-xs-12">
+      <h3 style="color: #6e2890">*Web Technologies</h3>
+      <ul class="compt">
+        <li ng-repeat="i in skill[1]['webTechs']">{{i}}</li>
+      </ul>
+    </section>
+    <section class="skills col-xs-12">
+      <h3 style="color: #6e2890">*Frameworks</h3>
+      <ul class="compt">
+        <li ng-repeat="i in skill[3]['Framework']">{{i}}</li>
+      </ul>
+    </section>
+  </div>
+  <div class="col-xs-4">
+    <section class="skills col-xs-4">
+      <h3 style="color: #6e2890">*Embedded Systems</h3>
+      <ul class="compt">
+        <li ng-repeat="i in skill[2]['Systèmes embarqués']">{{i}}</li>
+      </ul>
+    </section>
+    <section class="skills col-xs-4">
+      <h3 style="color: #6e2890">*General Knowledge</h3>
+      <ul class="compt">
+        <li ng-repeat="i in skill[4]['Connaissances']">{{i}}</li>
+      </ul>
+    </section>
+    <section class="skills col-xs-4">
+      <h3 style="color: #6e2890">*Languages</h3>
+      <ul class="compt">
+        <li ng-repeat="i in skill[6]['Langues']">{{i}}</li>
+      </ul>
+    </section>
+  </div>
 </div>

@@ -1,17 +1,7 @@
 <div class="row">
-    <section class="details">
-            <h2>{{form[0].date}}</h2>
-            <h3>{{form[0].Ecole}}</h3>
-            <h3 style="color: #2e6da4">{{form[0].Diplome}}</h3>
-    </section>
-    <section class="details">
-            <h2>{{form[1].date}}</h2>
-            <h3>{{form[1].Ecole}}</h3>
-            <h3 style="color: #2e6da4">{{form[0].Diplome}}</h3>
-    </section>
-    <section class="details">
-            <h2>{{form[2].date}}</h2>
-            <h3>{{form[2].Ecole}}</h3>
-            <h3 style="color: #2e6da4">{{form[0].Diplome}}</h3>
-    </section>
+  <section class="details" ng-repeat="item in form">
+    <h2>{{item.date}}</h2>
+    <h3>{{item.Ecole}}</h3>
+    <h3 style="color: red">{{item.Diplome}}</h3>
+  </section>
 </div>
